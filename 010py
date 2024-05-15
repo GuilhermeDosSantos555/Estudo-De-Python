@@ -1,0 +1,6 @@
+l = int(input('Informe a largura da parede: '))
+al = int(input('Informe a altura da parede: '))
+a = l*al
+print('A área da parede é de {} metros quadrados '.format(a))
+re = (a/2)
+print('A quantidade de tinta necessária seria de {} litros. '.format(re))
